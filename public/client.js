@@ -8,22 +8,22 @@ appendMessage('You joined');
 socket.emit('new-user', username);
 
 socket.on('chat-message', data => {
-    appendMessage(`${data.name}: ${data.message}`)
+    appendMessage(`${data.name}: ${data.message}`);
 });
   
 socket.on('user-connected', name => {
-    appendMessage(`${name} connected`)
+    appendMessage(`${name} connected`);
 });
   
 socket.on('user-disconnected', name => {
-    appendMessage(`${name} disconnected`)
+    appendMessage(`${name} disconnected`);
 });
 
 form.addEventListener('submit', e => {
-    e.preventDefault()
+    e.preventDefault();
     if (input.value) {
-        appendMessage(`You: ${input.value}`)
-        socket.emit('send-chat-message', input.value)
+        appendMessage(`You: ${input.value}`);
+        socket.emit('send-chat-message', input.value);
         input.value = '';
     }
 });
