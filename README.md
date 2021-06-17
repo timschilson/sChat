@@ -77,4 +77,4 @@ http://127.0.0.1:3000 | http://domain.tld:3000
 
 ## Image
 
-<img src="https://i.imgur.com/DuomlAs.png" height="150" alt="sCloud-Screenshot">
+<img src="https://i.imgur.com/DuomlAs.png" alt="sCloud-Screenshot">
