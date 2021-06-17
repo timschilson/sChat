@@ -2,15 +2,20 @@
 
 📢 Note: This project was not created with the intention to be secure or to protect the privacy of the users. Use at your own risk!
 
+https://drive.google.com/file/d/1moGwK_IgTZId4myUHfDixDta_nMH2HqA/preview" width="640" height="480" allow="autoplay
+
 <p align="center">
-    <img height="200" src="https://i.imgur.com/SCJbHwy.png">
+        <img src="https://cloud.ibm.com/media/docs/developer-appservice/resources/ibm-cloud.svg" height="100" alt="IBM Cloud">
+    </a>
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg" alt="GitHub Release">
-    <img src="https://img.shields.io/badge/platform-node-lightgrey.svg?style=flat" alt="Last Commit">
-    <img src="https://img.shields.io/badge/license-Apache2-blue.svg?style=flat" alt="Docker Pulls">
+    <img src="https://img.shields.io/github/v/release/timschilson/schat" alt="GitHub Release">
+    <img src="https://img.shields.io/github/last-commit/timschilson/schat" alt="Last Commit">
+    <img src="https://img.shields.io/docker/pulls/timschilson/schat" alt="Docker Pulls">
 </p>
+
+
 
 ---
 
