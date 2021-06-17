@@ -9,7 +9,7 @@ const initMessages = 50;
 
 const users = {};
 
-const dbURI = 'mongodb://schat:schat@localhost:27017/schat?authSource=schat';
+const dbURI = 'mongodb://mongo:27017/schat';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => console.log('connected to db'))
     .catch((err) => console.log(err));

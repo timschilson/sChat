@@ -4,13 +4,13 @@ while(!username){
     var username = prompt('What is your name?');
 };
 
-appendMessage('You joined');
-socket.emit('new-user', username);
-
 socket.on('init', results => {
     results.forEach(result => {
         appendMessage(`${result.username}: ${result.message}`);
     });
+
+    appendMessage('You joined');
+    socket.emit('new-user', username);
 });
 
 socket.on('chat-message', data => {
