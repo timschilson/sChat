@@ -77,4 +77,6 @@ http://127.0.0.1:3000 | http://domain.tld:3000
 
 ## Image
 
+In the following image you can see how the web application looks like:
+
 <img src="https://i.imgur.com/DuomlAs.png" alt="sCloud-Screenshot">
