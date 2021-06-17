@@ -2,8 +2,8 @@
 
 📢 Note: This project was not created with the intention to be secure or to protect the privacy of the users. Use at your own risk!
 
+[![GitHub Release](https://img.shields.io/github/v/release/timschilson/schat)](https://img.shields.io/github/v/release/timschilson/schat)
 [![Last Commit](https://img.shields.io/github/last-commit/timschilson/schat)](https://img.shields.io/github/last-commit/timschilson/schat)
-[![GitHub Release](https://img.shields.io/github/downloads/timschilson/schat/total)](https://img.shields.io/github/downloads/timschilson/schat/total)
 [![Docker Pulls](https://img.shields.io/docker/pulls/timschilson/schat)](https://img.shields.io/docker/pulls/timschilson/schat)
 
 ---
