@@ -3,7 +3,7 @@
 📢 Note: This project was not created with the intention to be secure or to protect the privacy of the users. Use at your own risk!
 
 <p align="center">
-    <img height="100" src="https://i.imgur.com/SCJbHwy.png">
+    <img height="200" src="https://i.imgur.com/SCJbHwy.png">
 </p>
 
 <p align="center">
