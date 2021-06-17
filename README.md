@@ -72,3 +72,9 @@ docker-compose up -d
 When your docker container is running, connect to it via any up-to-date web browser via port 3000 (or as specified in docker-compose.yml) for the chat interface.
 
 http://127.0.0.1:3000 | http://domain.tld:3000
+
+---
+
+## Image
+
+<img src="https://i.imgur.com/DuomlAs.png" height="150" alt="sCloud-Screenshot">
