@@ -1,6 +1,12 @@
-## sChat
+### sChat is a simple web chat application based on node.js [express, socket.io] and mongodb.
 
-sChat is a simple web chat application based on node.js [express, socket.io] and mongodb.
+📢 Note: This project was known as Bitwarden_RS and has been renamed to separate it
+
+[![Last Commit](https://img.shields.io/github/last-commit/timschilson/schat)](https://img.shields.io/github/last-commit/timschilson/schat)
+[![GitHub Release](https://img.shields.io/github/downloads/timschilson/schat/total)](https://img.shields.io/github/downloads/timschilson/schat/total)
+[![Docker Pulls](https://img.shields.io/docker/pulls/timschilson/schat)](https://img.shields.io/docker/pulls/timschilson/schat)
+
+---
 
 ## Features
 
@@ -8,6 +14,9 @@ sChat is a simple web chat application based on node.js [express, socket.io] and
 - View the 50 oldest messages even after reconnecting
 - Selecting a username
 - Insanely fast chat experience (realtime)
+- Persistent database data
+
+---
 
 ## Installation
 
@@ -48,6 +57,8 @@ volumes:
 ```bash
 docker-compose up -d
 ```
+
+---
 
 ## Connecting to the web-application
 
