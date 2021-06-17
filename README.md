@@ -5,7 +5,7 @@
 https://drive.google.com/file/d/1moGwK_IgTZId4myUHfDixDta_nMH2HqA/preview" width="640" height="480" allow="autoplay
 
 <p align="center">
-        <img src="https://cloud.ibm.com/media/docs/developer-appservice/resources/ibm-cloud.svg" height="100" alt="IBM Cloud">
+        <img src="https://i.imgur.com/SCJbHwy.png" height="150" alt="sCloud">
     </a>
 </p>
 
