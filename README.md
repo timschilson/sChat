@@ -1,6 +1,6 @@
 ### sChat is a simple web chat application based on node.js [express, socket.io] and mongodb.
 
-📢 Note: This project was known as Bitwarden_RS and has been renamed to separate it
+📢 Note: This project was not created with the intention to be secure or to protect the privacy of the users. Use at your own risk!
 
 [![Last Commit](https://img.shields.io/github/last-commit/timschilson/schat)](https://img.shields.io/github/last-commit/timschilson/schat)
 [![GitHub Release](https://img.shields.io/github/downloads/timschilson/schat/total)](https://img.shields.io/github/downloads/timschilson/schat/total)
