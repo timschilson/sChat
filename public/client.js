@@ -7,6 +7,12 @@ while(!username){
 appendMessage('You joined');
 socket.emit('new-user', username);
 
+socket.on('init', results => {
+    results.forEach(result => {
+        appendMessage(`${result.username}: ${result.message}`);
+    });
+});
+
 socket.on('chat-message', data => {
     appendMessage(`${data.name}: ${data.message}`);
 });
