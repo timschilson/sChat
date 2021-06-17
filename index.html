@@ -3,12 +3,17 @@
     <head>
         <title>sChat</title>
         <link rel="stylesheet" href="/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 
     <body>
-        <ul id="messages"></ul>
-        <form id="form" action="">
-            <input id="input" autocomplete="off" /><button>Send</button>
+        <div class="w3-card-4 w3-container w3-center w3-padding-hor-32"> 
+            <img src="https://i.imgur.com/SCJbHwy.png" height="150" alt="sCloud">
+        </div>
+        <ul class="w3-ul w3-card-4" id="messages"><li>Tim: test</li><li>Tim: test</li><li>Tim: test</li></ul>
+        <form class="w3-card-4" id="form" action="">
+            <input class="w3-input w3-border w3-animate-input" id="input" autocomplete="off" type="text" style="width:25%"><button class="w3-btn w3-hover-deep-orange" style="width:10%">Send</button>
         </form>
 
         <script src="/socket.io/socket.io.js"></script>

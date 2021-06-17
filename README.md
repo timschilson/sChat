@@ -13,8 +13,6 @@
     <img src="https://img.shields.io/docker/pulls/timschilson/schat" alt="Docker Pulls">
 </p>
 
-
-
 ---
 
 ## Features
