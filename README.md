@@ -5,7 +5,7 @@
 https://drive.google.com/file/d/1moGwK_IgTZId4myUHfDixDta_nMH2HqA/preview" width="640" height="480" allow="autoplay
 
 <p align="center">
-    <img src="https://doc-0k-78-docs.googleusercontent.com/docs/securesc/fojpir2g3gi83qauuiee0ekv63al8inv/o7cefve85s057bnklkjb9g4k2c5198q7/1623958575000/03404707661045936168/06155198458613751007/1moGwK_IgTZId4myUHfDixDta_nMH2HqA?e=view&authuser=0" height="100" alt="sChat">
+    <iframe src="https://drive.google.com/file/d/1moGwK_IgTZId4myUHfDixDta_nMH2HqA/preview" width="640" height="480" allow="autoplay"></iframe>
 </p>
 
 <p align="center">
