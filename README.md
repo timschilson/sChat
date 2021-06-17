@@ -2,8 +2,6 @@
 
 📢 Note: This project was not created with the intention to be secure or to protect the privacy of the users. Use at your own risk!
 
-https://drive.google.com/file/d/1moGwK_IgTZId4myUHfDixDta_nMH2HqA/preview" width="640" height="480" allow="autoplay
-
 <p align="center">
         <img src="https://i.imgur.com/SCJbHwy.png" height="150" alt="sCloud">
     </a>
