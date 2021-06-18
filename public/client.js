@@ -35,8 +35,11 @@ form.addEventListener('submit', e => {
 });
 
 function appendMessage(msg) {
-    var item = document.createElement('li');
-    item.textContent = msg;
-    messages.appendChild(item);
+    var listitem = document.createElement('li');
+    var span = document.createElement('span');
+    span.textContent = msg;
+    span.className = 'listitem-text';
+    listitem.appendChild(span)
+    messages.appendChild(listitem);
     window.scrollTo(0, document.body.scrollHeight);
 }

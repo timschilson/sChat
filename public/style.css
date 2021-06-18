@@ -24,3 +24,18 @@ body {
 #messages > li:nth-child(odd) {
     background: #efefef;
 }
+
+.listitem-text {
+    animation: slide 1s ease;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
