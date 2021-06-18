@@ -48,6 +48,7 @@ services:
     mongo:
         image: mongo
         container_name: schat-mongo
+        restart: always
         ports: 
             - '27017:27017'
         volumes:
