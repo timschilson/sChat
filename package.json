@@ -11,7 +11,7 @@
     "url": "git+https://github.com/timschilson/sChat.git"
   },
   "author": "Tim Schilson <ts@schilson.de>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/timschilson/sChat/issues"
   },

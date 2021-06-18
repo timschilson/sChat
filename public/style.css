@@ -19,6 +19,7 @@ body {
 
 #messages > li {
     padding: 0.5rem 1rem;
+    border-bottom: none;
 }
 
 #messages > li:nth-child(odd) {
@@ -37,5 +38,25 @@ body {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(26, 26, 26);
+        color: rgb(226, 226, 226)
+    }
+
+    button {
+        background-color: rgb(58, 58, 58) !important;
+    }
+
+    input {
+        background-color: rgb(58, 58, 58) !important;
+        color: rgb(226, 226, 226) !important;
+    }
+    
+    #messages > li:nth-child(odd) {
+        background: rgb(58, 58, 58);
     }
 }
