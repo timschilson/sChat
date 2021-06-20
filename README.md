@@ -17,12 +17,12 @@
 
 ## Features 📌
 
-- Simplistic user interface
-- View the 50 oldest messages even after reconnecting
-- Selecting a username
-- Insanely fast chat experience (realtime)
-- Persistent database data
-- Dark / Light mode (system preference)
+-   Simplistic user interface
+-   View the 50 oldest messages even after reconnecting
+-   Selecting a username
+-   Insanely fast chat experience (realtime)
+-   Persistent database data
+-   Dark / Light mode (system preference)
 
 ---
 
@@ -30,32 +30,32 @@
 
 1. Install `Docker` and `Docker-Compose`
 
-- [Docker Install documentation](https://docs.docker.com/install/)
-- [Docker-Compose Install documentation](https://docs.docker.com/compose/install/)
+-   [Docker Install documentation](https://docs.docker.com/install/)
+-   [Docker-Compose Install documentation](https://docs.docker.com/compose/install/)
 
 2. Create a `docker-compose.yml` file similar to this:
 
 ```yml
-version: '3'
-services: 
+version: "3"
+services:
     app:
         image: timschilson/schat
         container_name: schat-app
         restart: always
-        ports: 
-            - '3000:3000'
+        ports:
+            - "3000:3000"
         links:
             - mongo
     mongo:
         image: mongo
         container_name: schat-mongo
         restart: always
-        ports: 
-            - '27017:27017'
+        ports:
+            - "27017:27017"
         volumes:
             - mongodb:/data/db
             - mongodb_config:/data/configdb
-            
+
 volumes:
     mongodb:
     mongodb_config:
@@ -88,4 +88,4 @@ In the following image you can see how the web application looks like:
 
 ## License 🛂
 
-Distributed under the MIT License. See  `LICENSE`  for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
