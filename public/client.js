@@ -1,7 +1,7 @@
 const socket = io();
 
 while (!username) {
-    var username = prompt("What is your name?");
+    var username = prompt("Wie lautet Ihr Name?");
 }
 
 socket.on("init", (results) => {
@@ -9,7 +9,7 @@ socket.on("init", (results) => {
         appendMessage(`${result.username}: ${result.message}`);
     });
 
-    appendMessage("You joined");
+    appendMessage("Sie sind beigetreten");
     socket.emit("new-user", username);
 });
 
@@ -28,7 +28,7 @@ socket.on("user-disconnected", (name) => {
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (input.value) {
-        appendMessage(`You: ${input.value}`);
+        appendMessage(`Sie: ${input.value}`);
         socket.emit("send-chat-message", input.value);
         input.value = "";
     }
